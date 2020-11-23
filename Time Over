@@ -1,0 +1,6 @@
+ static void Main(string[] args){
+ for (int a = 99; a >= 0; a -=1)
+ if(a = 0){
+ Console.Writeline("Time Over")
+ }
+ }
