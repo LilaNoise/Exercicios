@@ -1,0 +1,21 @@
+using System;
+
+namespace Attack
+{
+    class Program {
+        static Random r = new Random();
+   
+        static void Main(string[] args)
+        {
+            int player1 = r.Next(100, 201);
+            int player2 = r.Next(100, 201);
+
+            int attack1 = r.Next(10, 51);
+            int attack2 = r.Next(10, 51);
+
+            player1 = player1 - attack2;
+
+            player2 = player2 - attack1;
+        }
+    }
+}
