@@ -1,0 +1,33 @@
+using System;
+
+namespace loot
+{
+    class Program
+    {
+        static Random r = new Random();
+        static void Main(string[] args)
+        {
+            int randomItemOne = r.Next(101);
+            if (randomItemOne <= 60)
+            {
+
+                Console.WriteLine("Primeiro Item - Comum");
+            }
+            else
+            {
+                if (randomItemOne <= 90)
+                {
+
+                    Console.WriteLine("Primeiro Item - Incomum");
+
+                }
+                else
+                {
+
+                    Console.WriteLine("Primeiro Item - Raro");
+
+                }
+            }
+    }
+    }
+}
